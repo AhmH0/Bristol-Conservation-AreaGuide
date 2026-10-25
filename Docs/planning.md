@@ -16,6 +16,17 @@ The application lets the user search for different conservation areas in the cit
 Some of the risks and challenges I can see coming up during the development of the application would be mainly around making sure it's easy to use, and that there might be a limited amount of information in the dataset regarding some of these conservation areas. However, most of these can be dealt with as I do continuous tests and handle errors properly. 
 
 ## Project Scope
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
+The system of interest would be the "Bristol Conservation Areas Explorer", which includes these features and components: 
 
-![Insert your Context Diagram Here](images/context.png)
+*A display of information regarding these conservation areas, which come from the Bristol Open Data platform.
+
+*It allows users to look for and browse through the conservation areas.
+
+*It showcases the location of these conservation areas.
+
+*A user friendly interface made with the help of HTML, CSS and Javascript.
+
+
+
+<img width="1087" height="827" alt="image" src="https://github.com/user-attachments/assets/6c071860-ce05-4ab5-97a9-16e01ac5d1dd" />
+
