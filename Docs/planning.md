@@ -37,15 +37,22 @@ In more detail, here are some of the risks i could identify around my project, a
 ## Project Scope
 The system of interest would be the "Bristol Conservation Areas Explorer", which includes these features and components: 
 
-*A display of information regarding these conservation areas, which come from the Bristol Open Data platform.
+* Conservation area information:
+  The application has to go through the Bristol open dataset and display relevant information from the data base in a way that the user can read and access, this includes the location of these areas, historical importance and additional documents.  
 
-*It allows users to look for and browse through the conservation areas.
+* Search and browse functionality:
+  The user has to be able to search for the different areas through the dataset, or browse through a list. This would make browsing through the entire data set a whole lot easier while making it more accessible for the general public.
 
-*It showcases the location of these conservation areas.
+* User friendly interface:
+  Having an accessible and easy to use interface is important for this applications purpose of making this data about conservation areas accessible to the public, the map service has to be visually displayed accurately, so that they can select locations and plan their journeys. This will make use of HTML, CSS and JavaScript.
 
-*A user friendly interface made with the help of HTML, CSS and Javascript.
+* Data integration:
+  The system will make use of the Bristol open database and retrieve information regarding the conservation areas so that they can be displayed in a more smooth and accessible manner. 
+  
+* Interactive map integration
+The software will make use of a map service that would put the conservation areas and related information on visual display, this would allow the user to select a location and access the information regarding the location.
 
 
 
-<img width="1087" height="827" alt="image" src="https://github.com/user-attachments/assets/6c071860-ce05-4ab5-97a9-16e01ac5d1dd" />
+<img width="1087" height="827" alt="image" src="https://github.com/AhmH0/Bristol-Conservation-AreaGuide/blob/main/Docs/Assets/contextDiagramImproved.png" />
 
