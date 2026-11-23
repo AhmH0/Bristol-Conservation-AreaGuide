@@ -25,9 +25,7 @@
 * System Maintenance team: A person or a group of developers which will maintain the software, as they ensure that data is up to date and accurate, managing the updates, monitoring performance and dealing with possible emerging issues with the software.
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
+
 
 | Use Case 1 | Search Conservation Areas | 
 | -------------------------------------- | ------------------- |
@@ -80,9 +78,24 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | Filtered results should be accurate to the filter request |
 | **Issues** |Some of the areas have lacking information which might limit the amount of search results that the software can provide. |
 
-TODO: Your Use-Case diagram should include all use-cases.
+### Use Case Diagrams
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
+Uc1: Search conservation areas
+[UC1Diagram](./Assets/UserCaseDiagram1.png)
+
+Uc2: View conservation are information
+[UC2Diagram](./Assets/UserCaseDiagram2.png)
+
+Uc3: Maintain conservation area data
+[UC3Diagram](./Assets/UserCaseDiagram3.png)
+
+Uc4: View supporting documents
+[UC4Diagram](./Assets/UserCaseDiagram4.png)
+
+Uc5: Filter conservation areas
+[UC5Diagram](./Assets/UserCaseDiagram5.png)
+
+
 
 ## Software Requirements Specification
 ### Functional requirements
