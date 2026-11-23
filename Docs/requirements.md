@@ -99,14 +99,52 @@ Uc5: Filter conservation areas
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
+These requirements are what describe the features and actions which my Bristol Conservation Area Guide system will provide. Each one of these functional requireemnts has an identifier such as FR1, FR2, etc and is used to connect back to the use case it originates from.
+
+* FR1 - Search for conservation areas (UC1) .\
+  The system shall allow the user to search through the conservation areas of Bristol by entering an area name.
+
+* FR2 - Display relevant conservation areas (UC1) .\
+  The system shall retrieve and display these conservation areas based on user queries, and presenting results related to the query, using location data from Bristol Open Datas conservation areas database.
+
+* FR3 - Display Conservation areas on a map (UC1) .\
+  The system shall display the areas and their location on an interactive map.
+
+* FR4 - Display conservation areas information (UC2) .\
+  The system shall retrieve and display information about the selected conservation area, mainly data on the area from the Bristol open data base.
+
+* FR5 - Handle missing information (UC2) .\
+  The system shall display when information on a selected conservation area is unavailable, instead of displaying incorrect informatiom.
+
+* FR6 - Review Existing conservation area data (UC3) .\
+  The system shall allow authorised maintenance team members to go through the data and information.
+
+* FR7 - Update Conservation area Data (UC3) .\
+  The system shall allow authorised members to update the missing or inaccurate information.
+
+* FR8 - Make Updated Information Available (UC3) .\
+  The system shall make updated conservation area information as the dataset improve, to ensure accuracy.
+
+* FR9 - Display supporting documents (UC4) .\
+  The system shall provide the user with to access to the supporting documents (when available) of the selected area.
+
+* FR10 - Handle unavailable documents (UC4) .\
+  The system shall inform the user when supporting documents arent available.
+
+*  FR11 - Apply filters to conservation areas (UC5) .\
+  The system shall allow users to apply multiple filters regarding the areas, to narrow down their search results.
+
+* FR12 - Display filtered results (UC5) .\
+  The system shall display conservation areas that match the users selected filter, and will also inform said user if the results arent available.
+
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+While functional requirements describe the features and actions of my system, the non-functional requirements describe the quality and constraints of the system.
 
-Indicate which UC the requirement comes from.
+* NFR1 - Usability (UC1, UC5)
+* NFR2 - Performance (UC1, UC2, UC5)
+* NFR3 - Reliability (UC1, UC2, UC4, UC5)
+* NFR4 - Security (UC3)
+* NFR5 - Accessibility (UC1, UC2, UC4, UC5)
+* NFR6 - Maintainability (UC3)
